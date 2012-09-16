@@ -41,7 +41,7 @@ class BufferQueue : public BnGraphicBufferProducer,
                     public BnGraphicBufferConsumer,
                     private IBinder::DeathRecipient {
 public:
-    enum { MIN_UNDEQUEUED_BUFFERS = 2 };
+    enum { MIN_UNDEQUEUED_BUFFERS = 3 };
     enum { NUM_BUFFER_SLOTS = 32 };
     enum { NO_CONNECTED_API = 0 };
     enum { INVALID_BUFFER_SLOT = -1 };
